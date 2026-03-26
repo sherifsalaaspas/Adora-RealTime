@@ -1,0 +1,99 @@
+body {
+  font-family: Inter, sans-serif;
+  background: #f6f8ff;
+  margin: 0;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  color: #000074;
+  margin-bottom: 25px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+  margin-bottom: 30px;
+}
+
+.section-title {
+  color: #000074;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.section-sub {
+  color: #9d0bb5;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #dbe0f0;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.btn {
+  background: #000074;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #111199;
+}
+
+.flex-row {
+  display: flex;
+  gap: 10px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.suggestions {
+  background: #eee;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.list {
+  margin-top: 10px;
+}
+
+.best-option {
+  margin-top: 15px;
+  padding: 12px;
+  background: #9d0bb5;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.timeline {
+  margin-top: 20px;
+}
+
+.timeline-item {
+  padding: 10px;
+  border-left: 3px solid #000074;
+  margin-bottom: 10px;
+}
